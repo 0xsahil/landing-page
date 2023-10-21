@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+#redirect{
+    font-size: 5rem;
+    max-width: 95%;
+    height: 100vh;
+    
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+#back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#top {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#workarea {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  max-width: 1920px;
+}
+
+#nav {
+  pointer-events: all;
+  width: 100%;
+  height: 10vh;
+  padding: 1rem 0;
+  font-size: 3.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-con {
+  gap: 5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-con a {
+  color: rgb(207, 174, 174);
+}
+.nav-con img {
+  height: 100%;
+}
+
+#hero {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+}
+#heroL {
+  height: 100%;
+  min-width: 50%;
+}
+#heroL .text-con {
+  position: relative;
+  height: 12rem;
+  overflow: hidden;
+  padding: 0;
+}
+#heroL .text-con h1:nth-child(1) {
+  top: 0;
+}
+#heroL .text-con h1 {
+  position: absolute;
+  top: 100%;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Teko", sans-serif;
+  color: white;
+  font-size: 12rem;
+  letter-spacing: 0.2rem;
+}
+#heroR {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  color: white;
+}
+#heroR p {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+#heroR a img {
+  pointer-events: all;
+  height: 15rem;
+  margin: 2rem 0;
+  width: 100%;
+  object-fit: cover;
+}

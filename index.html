@@ -1,31 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div id="main">
-        <div id="back"></div>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <script
+      src="https://kit.fontawesome.com/7061fd4dd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main" class="container">
+      <div id="back" class="container">
+        <img src="./images/IMG_7564.JPG" alt="" />
+        <img src="./images/IMG_7565.JPG" alt="" />
+        <img src="./images/IMG_7566.JPG" alt="" />
+        <img src="./images/IMG_7567.JPG" alt="" />
+        <img src="./images/IMG_7568.JPG" alt="" />
+      </div>
 
-        <div id="top">
-
+      <div id="top" class="container">
+        <div id="workarea">
+          <!-- Navbar -->
+          <div id="nav">
+            <div class="nav-con">
+              <img src="./images/raybanlogo.png" alt="nav logo" />
+              <!-- <a href="/"><i class="fa-solid fa-paper-plane"></i></a> -->
+            </div>
+            <div class="nav-con">
+              <a href="https://0xsahil.netlify.app/"><i class="fa-solid fa-circle-user"></i></a>
+              <a href="https://github.com/0xsahil"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <!-- HERO -->
+          <div id="hero">
+            <div id="heroL">
+              <div class="text-con">
+                <h1>Emily </h1>
+                <h1>Ava's got</h1>
+                <h1>Olivia </h1>
+                <h1>Lily's </h1>
+                <h1>David Chang</h1>
+              </div>
+              <div class="text-con">
+                <h1>throws </h1>
+                <h1>no time </h1>
+                <h1>cares </h1>
+                <h1>funk level </h1>
+                <h1>Gives</h1>
+              </div>
+              <div class="text-con">
+                  <h1>no shade.</h1>
+                  <h1>for drama.</h1>
+                  <h1>zero percent.</h1>
+                  <h1>is absolute zero.</h1>
+                  <h1>zero funks.</h1>
+              </div>
+            </div>
+            <div id="heroR">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus quam neque animi consectetur culpa laudantium
+                ratione amet dolores exercitationem molestiae commodi iste
+                doloribus, quod ea tenetur numquam, unde est! Est, animi
+                commodi.
+              </p>
+              <a href="/">
+                <img
+                  src="./images/IMG_7564.JPG"
+                  width="300"
+                  height="200"
+                  alt="Home"
+                />
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Delectus ut expedita laudantium ducimus ea nobis odit
+                perferendis, optio commodi minus. Exercitationem atque ut neque
+                ullam dicta nihil dignissimos saepe explicabo, obcaecati magni?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Delectus repellendus quam porro esse ad placeat provident ab
+                voluptatum voluptatibus ut expedita laudantium ducimus ea nobis
+                odit perferendis,magni?
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
 
 
+    <!-- Inluding sheryJS -->
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
 
-
-
-
-
-
-
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
